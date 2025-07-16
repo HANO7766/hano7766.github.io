@@ -4,5 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+#Hola
+
+Ingeniero informático con especialización en Java y un apasionado de la ciberseguridad. Aunque mi objetivo es desarrollarme en el Blue Team, disfruto explorando el mundo del pentesting de forma autodidacta. Mi curiosidad me impulsa a entender y fortalecer las defensas desde una perspectiva ofensiva
