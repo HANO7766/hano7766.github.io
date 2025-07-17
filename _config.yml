@@ -38,10 +38,10 @@ social:
   email: renatotr66@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - Hano # change to your Twitter homepage
-    - https://github.com/HANO7766 # change to your GitHub homepage
+    - https://twitter.com/Hano # change to your Twitter homepage
+    - https://github.com/username # change to your GitHub homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/usernameHANO
+    # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
