@@ -1,5 +1,5 @@
 ---
-title: "Connected - HTB"
+title: "Connected — HackTheBox Season 11"
 date: 2026-06-13 12:00:00 -0400
 categories: [HTB, Writeups]
 tags: [linux, freepbx, cve-2025-57819, rce, incron, suid, privesc, asterisk]
