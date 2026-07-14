@@ -13,10 +13,25 @@ Aquí comparto algunos de mis proyectos de desarrollo y herramientas de segurida
     background-color: var(--card-bg) !important;
     border: 1px solid var(--main-border-color) !important;
     border-radius: 8px;
+    overflow: hidden;
   }
   .project-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+  }
+  .project-img-container {
+    overflow: hidden;
+    height: 180px;
+    border-bottom: 1px solid var(--main-border-color);
+  }
+  .project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .project-card:hover .project-img {
+    transform: scale(1.05);
   }
   .project-tag {
     font-size: 0.75rem;
@@ -42,6 +57,11 @@ Aquí comparto algunos de mis proyectos de desarrollo y herramientas de segurida
   {% for project in site.data.projects %}
   <div class="col">
     <div class="card h-100 project-card">
+      {% if project.image %}
+      <div class="project-img-container">
+        <img src="{{ project.image }}" class="project-img" alt="{{ project.name }}">
+      </div>
+      {% endif %}
       <div class="card-body d-flex flex-column p-4">
         <h5 class="card-title fw-bold text-primary mb-2">{{ project.name }}</h5>
         <p class="card-text text-muted flex-grow-1" style="font-size: 0.9rem; line-height: 1.6;">

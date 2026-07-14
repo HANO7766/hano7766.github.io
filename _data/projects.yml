@@ -5,13 +5,16 @@
   description: "Plantilla de arquitectura de microservicios segura con Spring Boot 3, Spring Security 6, JWT, OAuth2 y control de acceso basado en roles (RBAC)."
   github: "https://github.com/Hano7766/spring-boot-securify"
   tags: [Java, Spring Boot, Spring Security, JWT, PostgreSQL]
+  image: "/assets/images/projects/securify.png"
 
 - name: "Spring Vulnerability Analyzer"
   description: "Herramienta de análisis estático (SAST) ligera en Java que analiza configuraciones de Spring Boot y dependencias en busca de malas prácticas y CVEs comunes."
   github: "https://github.com/Hano7766/spring-vuln-analyzer"
   tags: [Java, Spring Boot, SAST, Security]
+  image: "/assets/images/projects/analyzer.png"
 
 - name: "Reactive Log Monitor"
   description: "Servicio reactivo desarrollado con Spring WebFlux que procesa y visualiza logs de seguridad en tiempo real utilizando WebSockets y Server-Sent Events (SSE)."
   github: "https://github.com/Hano7766/reactive-log-monitor"
   tags: [Java, Spring WebFlux, Reactive, SSE, Thymeleaf]
+  image: "/assets/images/projects/monitor.png"
