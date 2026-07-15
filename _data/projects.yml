@@ -4,6 +4,7 @@
 - name: "Spring Boot Securify"
   description: "Plantilla de arquitectura de microservicios segura con Spring Boot 3, Spring Security 6, JWT, OAuth2 y control de acceso basado en roles (RBAC)."
   github: "https://github.com/Hano7766/spring-boot-securify"
+  preview: "https://github.com/Hano7766/spring-boot-securify"
   tags: [Java, Spring Boot, Spring Security, JWT, PostgreSQL]
   image: "/assets/images.jpg"
 
@@ -13,8 +14,9 @@
   tags: [Java, Spring Boot, SAST, Security]
   image: "/assets/images/projects/E-commerce.png"
 
-- name: "Reactive Log Monitor"
-  description: "Servicio reactivo desarrollado con Spring WebFlux que procesa y visualiza logs de seguridad en tiempo real utilizando WebSockets y Server-Sent Events (SSE)."
-  github: "https://github.com/Hano7766/reactive-log-monitor"
-  tags: [Java, Spring WebFlux, Reactive, SSE, Thymeleaf]
+- name: "PentestForge"
+  description: "Aplicativo para generar reportes dinamicos de pentesting mediante LaTex y exportandolo a pdf."
+  github: "https://github.com/HANO7766/reporter_ia.git"
+  preview: "http://162.243.53.114/"
+  tags: [Java, Spring WebFlux, Typescript, PostgreSQL, Jpa, API REST]
   image: "/assets/images/projects/pentestforge1.png"

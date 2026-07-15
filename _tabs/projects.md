@@ -72,10 +72,15 @@ Aquí comparto algunos de mis proyectos de desarrollo y herramientas de segurida
           <span class="project-tag">{{ tag }}</span>
           {% endfor %}
         </div>
-        <div class="mt-auto d-flex justify-content-between align-items-center pt-2">
+        <div class="mt-auto d-flex flex-wrap gap-2 align-items-center pt-2">
           {% if project.github %}
           <a href="{{ project.github }}" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm project-btn">
             <i class="fab fa-github me-1"></i> Código
+          </a>
+          {% endif %}
+          {% if project.preview %}
+          <a href="{{ project.preview }}" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm project-btn">
+            <i class="fas fa-eye me-1"></i> Preview
           </a>
           {% endif %}
           {% if project.demo %}
