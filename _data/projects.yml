@@ -17,4 +17,4 @@
   description: "Servicio reactivo desarrollado con Spring WebFlux que procesa y visualiza logs de seguridad en tiempo real utilizando WebSockets y Server-Sent Events (SSE)."
   github: "https://github.com/Hano7766/reactive-log-monitor"
   tags: [Java, Spring WebFlux, Reactive, SSE, Thymeleaf]
-  image: "/assets/images/projects/pentestforge.png"
+  image: "/assets/images/projects/pentestforge1.png"

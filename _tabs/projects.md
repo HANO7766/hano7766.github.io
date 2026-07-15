@@ -22,15 +22,12 @@ Aquí comparto algunos de mis proyectos de desarrollo y herramientas de segurida
   .project-img-container {
     overflow: hidden;
     height: 180px;
-    width: 100% !important;
-    display: block !important;
     border-bottom: 1px solid var(--main-border-color);
   }
   .project-img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    display: block !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     transition: transform 0.3s ease;
   }
   .project-card:hover .project-img {
