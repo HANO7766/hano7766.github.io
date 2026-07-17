@@ -17,6 +17,6 @@
 - name: "PentestForge"
   description: "Aplicativo para generar reportes dinamicos de pentesting mediante LaTex y exportandolo a pdf."
   github: "https://github.com/HANO7766/reporter_ia.git"
-  preview: "http://162.243.53.114/"
+  preview: "https://reporter.hano7766.me/"
   tags: [Java, Spring WebFlux, Typescript, PostgreSQL, Jpa, API REST]
   image: "/assets/images/projects/pentestforge1.png"
